@@ -1,0 +1,106 @@
+body{
+    font-size: 15px;
+    padding: 0px;
+    background-image: url(./images/back2-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: Assistant, sans-serif; 
+    height: 1000px;
+    width: 100%;
+    margin: 0;
+
+}
+
+.form{
+    color: #777;
+    width: 50%;
+    margin: 50px 10px;
+    padding: 60px 40px 90px 40px;
+    font-size: 1.5em;
+    background-color: #fafafa;
+    background-image: -moz-linear-gradient(top,#fff,#f2f2f2);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#fff),to(#f2f2f2));
+    background-image: -webkit-linear-gradient(top,#fff,#f2f2f2);
+    background-image: -o-linear-gradient(top,#fff,#f2f2f2);
+    background-image: linear-gradient(to bottom,#fff,#f2f2f2);
+    background-repeat: repeat-x;
+    border: 1px solid #d4d4d4;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',endColorstr='#fff2f2f2',GradientType=0);
+    *zoom: 1;
+    -webkit-box-shadow: 0 1px 4px rgb(0 0 0 / 7%);
+    -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.065);
+    box-shadow: 0 1px 4px rgb(0 0 0 / 7%);
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 25%;
+    opacity: 0.85;
+}
+
+.form .head .title{
+    font-size: 1.9em;
+    text-align: center;
+}
+
+input{
+    padding: 5px;
+    font-size: 1.3rem;
+    border: solid 2px #777;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    color: #555;
+}
+
+.name input, .rollno input, .email input, .ID input, .schedule input, .rules input{
+    width: 100%;
+}
+
+.class option{
+    color: #555;
+}   
+
+.class select{
+    background-color: #888;
+    border: solid 2px #888;
+    border-radius: 5px;
+    padding: 3px;
+    color: aliceblue;
+}
+
+.sports{
+    display: flex;
+    flex-direction: column;
+}
+
+.sports .sport{
+    cursor: pointer;
+    background-color: #888;
+    border: solid 2px #888;
+    border-radius: 5px;
+    margin: 0 0 0 30px;
+    color: aliceblue;
+}
+
+.submit .button{
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    border: solid 2px #555;
+    background-color: #888;
+    color: white;
+    border-radius: 5px;
+}
+
+.submit .button:hover{
+    background-color: whitesmoke;
+    color: #555;
+    transition: 0.8s;
+}
+
+.login{
+    margin: 3px 3px 20px 3px;
+    padding: 10px;
+}

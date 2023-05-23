@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-size: 15px;
+    padding: 0px;
+    background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);   
+    font-family: Assistant, sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.form{
+    margin: 50px 10px 80px 10px;
+    padding: 60px 40px 90px 40px;
+    font-size: 1.7rem;
+    background-image: linear-gradient(90deg,rgb(70, 32, 141), #577ed2);
+    width: 40%;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 
+    0px 2px 10px rgba(36, 158, 36, 0.075), 
+    0px 10px 20px rgba(65, 36, 158, 0.338), 
+    0px 30px 60px 1px rgba(91, 36, 158, 0.495);
+    position: relative;
+    left: 30%;
+}
+
+.form .head .title{
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+input{
+    padding: 5px;
+    font-size: 1.3rem;
+    border: solid 2px rgb(144, 153, 238);
+    border-radius: 5px;
+    background-color: rgb(149, 144, 238);
+    color: rgb(39, 32, 141);
+}
+
+.name input{
+    width: 100%;
+}
+
+.rollno input{
+    width: 100%;
+}
+
+.class option{
+    color: rgb(32, 54, 141);
+}   
+
+.class select{
+    background-color: rgb(144, 169, 238);
+    border: solid 2px rgb(144, 171, 238);
+    border-radius: 5px;
+    padding: 3px;
+    color: rgb(32, 39, 141);
+}
+
+.sports{
+    display: flex;
+    flex-direction: column;
+}
+
+.sports .sport{
+    cursor: pointer;
+    background-color: rgb(144, 175, 238);
+    border: solid 2px rgb(144, 149, 238);
+    border-radius: 5px;
+    margin: 0 0 0 30px;
+}
+
+.email input{
+    width: 100%;
+}
+
+.submit .button{
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    border: solid 2px rgb(192, 144, 238);
+    background-image: linear-gradient(90deg,rgb(32, 54, 141), #5788d2);
+    color: rgb(202, 144, 238);
+    border-radius: 5px;
+}
+
+.submit .button:hover{
+    background-image: linear-gradient(rgb(144, 182, 238), rgb(144, 160, 238));
+    color: rgb(32, 96, 141);
+    transition: 0.8s;
+}
